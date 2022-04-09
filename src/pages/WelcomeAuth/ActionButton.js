@@ -1,7 +1,7 @@
-import {StyleSheet, Text, View, TouchableOpacity} from 'react-native';
 import React from 'react';
-import {colors} from '../../utils/colors';
+import {StyleSheet, Text, View} from 'react-native';
 import {Button} from '../../components';
+import {colors} from '../../utils/colors';
 
 const ActionButton = ({desc, title, onPress}) => {
   return (
